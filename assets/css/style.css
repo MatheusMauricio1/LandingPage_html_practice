@@ -1,0 +1,98 @@
+:root{
+    --primary-color: #23051d;
+    --letters-color: #fabffb;
+    --gap: 3rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4{
+    font-size: 3.5rem;
+}
+
+h5{
+    font-size: 3.0rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+}
+
+.main_bg{
+    background-image: url('/assets/img/main_img.png');
+    background-size: cover;
+    background-position: center center;
+    color: var(--letters-color)
+}
+
+.secondary_bg{
+    background-color:var(--letters-color);
+    color: var(--primary-color)
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu{
+    background: var(--letters-color);
+    color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.menu li{
+    list-style: none;
+
+}
+
+.menu li a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 2rem;
+}
