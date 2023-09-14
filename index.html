@@ -4,30 +4,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="/assets/css/classes.css">
+    <link rel="stylesheet" href="/assets/css/menu.css">
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/elements.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <!--Fonts that are being used in this landing page:-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="main_bg">
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label= "Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close-menu"></label>
     <aside class="menu">
-        <section class="main-content">
-        <h1 class="logo"><a href="#">Logo</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Item1</li>
-                <li><a href="#">Item2</li>
-                <li><a href="#">Item3</li>
-                <li><a href="#">Item4</li>
-            </ul>
-        </nav>
-    </section>
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked=false;"><a href="#">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top 3">top 3</a></li>
+                    <li><a href="#offer">offer</a></li>
+                    <li><a href="#testimonies">testimonies</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </aside>
-    <section class="section">
+    <div class="menu-spacing secondary_bg"></div>
+    <section id="intro" class="main_bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text">
+        <h2>This kot is chillin' because he knows it!</h2>
+        <p>He knows that he is debt free! And that he pisses off society by not having to pay a single penny to our lovely tyrants! So, do you want to start knowing how that KOT does it, too? Then follow our next sections to find out!</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/img/gif_kot.gif" alt="A gif of a kot chilling by the window">
+        </div>
+    </div>
     </section>
-    <section class="section">
+    <section id="top 3" class="secondary_bg section">
+        <div class="main-content top3-content">
+            <h2>TOP 3 FACTS</h2>
+            <p>Yes, you can! If you're in America. America's privilege is it's dollar. They can simply print more and more and more and get away with everything. You can't do that in Russia or China or the EU. So if you weren't born an american you're f***ed</p>
+            <p>America generates 4 trillion a year. The money that is going to Ukraine are f***ing peanuts to them.</p>
+            <p>IMAGINE how many corrupt bastards have become millionaires and even billionaires on the back of hundreds of thousands dead gullible Ukranians. Imagine the yatches and mansions. Shit sucks, right?</p>
+        </div>
     </section>
+    <section id="offer" class="grid-one main_bg">
+        <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">But don't worry! Your problems are solved!</h2>
+        <p class="grid-description">Want to know how KOT makes money, Eh? Follow these three steps then!</p>
+        <div class="grid">
+        <article>
+            <h3>Buy his course</h3>
+        <p>Buy his course! It is simple as that!</p>
+        </article>
+        <article>
+            <h3>Watch the course's videos</h3>
+        <p>Now that you've bought it, you are going to experience the knowledge of ancient times! A knowledge that has been passed from time to time, generation to generation, but only the 1% knows about it. And KOT is offerin' that knowledge to you for a cheap price!</p>
+        </article>
+        <article>
+            <h3>Profit</h3>
+        <p>That's it! You've made it! Congratulations! Now you know how KOT makes so much money! And all you had to do was buying his COURSE!</p>
+        </article>
+        </div>
+        </div>
+    </section>
+    <section id="testimonies" class="grid-one section secondary_bg">
+        <div class="main-content grid-one-content">
+            <h3>Is it worth it?</h3>
+            <span>Get to know some of our students's testimonies about how KOT's course has changed their lives:</span>
+            <h6>Click on their image to get redirected to their's feedback video!<h6>
+            <div class="grid">
+                <div class="testimonies-img">
+                    <a href="https://youtu.be/0KWxTAhJ5X0?si=H5rKpOkwlE-GMXh7" target="_blank"><img src="assets/img/bri'ish.png" alt="A bootiful bri'ish guy"></a>
+                </div>
+                <div class="testimonies-img">
+                    <a href="https://www.youtube.com/watch?v=G7yg7ejn8qY&pp=ygUeeW91IHByb21pc2VkIG15IHNvbiBmcmVlIHJvYnV4" target="_blank"><img src="assets/img/indian_robux_guy.png" alt="An indian man, asking for his son's robux!"></a>
+                </div>
+                <div class="testimonies-img">
+                    <a href="https://youtu.be/C4G2sxfpmdk?si=HkAd0p_rPwEQdm3N" target="_blank"><img src="assets/img/ozzy.png" alt="Ozzy Osbourn high on drugs"></a>
+                </div>
+                <div class="testimonies-img">
+                    <a href="https://youtu.be/lM1DI5oeOcQ?si=aNh4kvYTtsEkhhEQ" target="_blank"><img src="assets/img/maw.png" alt="A cat making a funny face"></a>
+                </div>
+                <div class="testimonies-img">
+                    <a href="https://youtu.be/jr-8DVHjjwI?si=K-W7RtAGQlRGjEPz" target="_blank"><img src="assets/img/maow.png" alt="The image of a cat"></a>
+                </div>
+                <div class="testimonies-img">
+                    <a href="https://youtu.be/Ntft_zd-_NM?si=1MuD6XyLBrjXxBv5" target="_blank"><img src="assets/img/serbian_tupac.png" alt="A picture of the rapper Tupac Shakour"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="secondary_bg">
+        <div class="main-content top3-content">
+            <h2>Our Prices</h2>
+            <p>You know that we are not joking when we say about how our prices are too low for what we offer to you!</p>
+            <p>So, you might check out which one of our products are more suitable for your actual budget. You will barely see any difference between each one of them but the prices!</p>
+            <h6>WE DO NOT ACCEPT SHITCOINS AS PAYMENT! CRYPTOCUCKS GTFO!</h6>
+        
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                        <th>Product</th>
+                        <th>Advantages</th>
+                        <th>Price</th>
+                        <th>I don't know</th>
+                        <th>HAHAHAHA</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Kot's Get Rich Die Quick Standard Edition</td>
+                            <td>One month access. Quick lessons, easy money. Might wake up with ants in your mouth though. </td>
+                            <td>$ 666</td>
+                            <td>Ace of Spades</td>
+                            <td>How about another joke Murray?</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Kot's Special Edition</td>
+                            <td>Six months access. Extra: Free one-way flight ticket to Xique-Xique, Bahia if everything goes wrong.</td>
+                            <td>$ 999</td>
+                            <td>Hellraiser</td>
+                            <td>What do you get, when you cross a mentally ill loner</td>
+                        </tr>
+                        <tr>
+                            <td>Kot's Trynna Catch Me Ridin' Dirty Edition</td>
+                            <td>Lifetime access. Mentored lessons at how to avoid getting caught by the IRS with Mr.Kot himself.</td>
+                            <td>$ 10.000</td>
+                            <td>Black Hell</td>
+                            <td>You get what you fucking deserve!</td>
+                        </tr>
+
+                        
+                    </tbody>
+
+                    <tfoot>
+                        <td colspan="5">Test</td>
+                    </tfoot>
+                    
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="main_bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text">
+        <h2>That's it lads!</h2>
+        <p>We hope that you enjoyed our page and our products, they are really worthy, innit?</p>
+        <p>If you have any doubt about our products or if you want to give us any suggestion, feel free to send us a message. We will gladly drag your message to the thrash bin!</p>
+        <p>Stay safe Space Cowboy!</p>
+        </div>
+        <div class="contact-img">
+            <img src="assets/img/DDDD.png" alt="Anime girl with a notepad which is written on it: I Will kill you and fuck the body *drawing of a heart*">
+        </div>
+
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact us:</legend>
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your e-mail">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message:</label>
+                    <textarea type="message" name="mesage" id="message" placeholder="Type a message..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send message</button>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="page-end">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/MatheusMauricio1">With love by Matheus Mauricio</a></p>
+
+        <pre> 
+▀██▀─▄███▄─▀██─██▀██▀▀█
+─██─███─███─██─██─██▄█
+─██─▀██▄██▀─▀█▄█▀─██▀█
+▄██▄▄█▀▀▀─────▀──▄██▄▄█
+        </pre>
+        </div>
+    </footer>
+    <a class="back-to-top" href="#">➢</a>
 </body>
 </html>
 

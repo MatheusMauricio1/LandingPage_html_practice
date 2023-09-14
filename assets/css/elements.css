@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.25%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
+
+section {
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4{
+    font-size: 3.5rem;
+}
+
+h5{
+    font-size: 3.0rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    margin-bottom: 3rem;
+}
+
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table{
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th{
+    padding: 0.5 rem;
+    border: 0.1rem  solid var(--primary-color);
+    text-align: left;
+}
+
+tfoot td {
+    background-color: var(--darker-primary-color);
+}
+
+footer{
+    background-color: var(--letters-color);
+    color: var(--primary-color);
+}
+
+footer p{
+    text-align: center;
+    padding: 3rem;
+}
+
+footer pre{
+    text-align: center;
+    margin-right: 50px;
+}
